@@ -1,0 +1,300 @@
+/* for large devices  */
+@media screen and ( max-width: 1200px) {
+	/* start banner  */
+	.banner_title{
+		font-size:36px;
+		line-height:55px;
+	}
+
+	.banner_box_two > img{
+		width:360px;
+	}
+	/* end banner  */
+
+	/* start featured  */
+	#featured{
+		margin-top:100px;
+	}
+	/* end featured  */
+
+	/* start analytics  */
+	img .analitics_item{
+		width:300px;
+	}
+	.analitics_heading{
+		font-size:28px;
+		line-height:30px;
+	}
+	/* end analytics  */
+
+	/* start testemonials */
+	#testimonials{
+		margin-top:0px;
+	}
+
+	.testemonial_item{
+		width: 360px;
+	}
+	/* end testemonials  */
+}
+
+
+@media screen and ( max-width: 992px) {
+	/* start nav  */
+	.nav_list_item{
+		margin-left: 50px;
+	}
+	/* end nav */
+
+	/* start banner */
+		.banner_title{
+			font-size:24px;
+			line-height:40px;
+		}
+
+		.banner_description{
+			font-size: 14px;
+			line-height:20px;
+			margin-top: 15px;
+			margin-bottom: 20px;
+		}
+
+		.btn{
+			font-size: 14px;
+			padding:15px 55px;
+		}	
+
+		.banner_box_two > img {
+			width:260px;
+		}
+	/* end banner  */
+
+
+	/* start analitics  */
+		.analitics_title{
+			line-height:55px;
+		}
+
+		.analitics_item_image > img{
+
+		}
+		.analitics_item_content{
+			max-width:420px;
+			margin-bottom: 100px;
+		}
+
+		.analitics_heading{
+			font-size:20px;
+		}
+
+	/* end analitics  */
+
+
+	/* start testimonials  */
+
+		.testimonials_heading{
+			line-height: 65px;
+			font-size:48px;
+		}
+
+		.testemonial_item{
+			width:220px;
+		}
+
+		.testimonial_item_avatar{
+			width:100px;
+			height: 100px;
+		}
+
+		.testemonials_item_titel{
+			font-size:14px;
+			line-height: 55px;
+		}
+
+		.testimonial_item_comment{
+			font-size:12px;
+		}
+
+		.testemonials_item_container{
+			padding: 35px;
+		}
+	/* end testimonials  */
+
+	/* start are you ready  */
+		#ready{
+			margin-top: 100px;
+			padding: 50px;
+		}
+
+		.ready_title{
+			font-size: 48px;
+			line-height: 65px;
+		}
+	/* end are you ready  */
+
+	/* start footer */
+	.form_input{
+		min-width:110px;
+
+	}
+	/* end footer  */
+
+}
+
+/* for medium devices  */
+
+@media screen and ( max-width: 768px) {
+	/* start nav */
+	.banner_btn_container{
+		justify-content:space-between;
+	}
+	.btn{
+		font-size:12px;
+		padding: 12px 35px;
+	}
+
+	.banner_title{
+		font-size:18px;
+		line-height: 28px;
+	}
+
+	.banner_box_two > img{
+		width:220px;
+	}
+	/* end nav */
+
+	/* start featured */
+	.featured_container{
+		padding: 5px 25px;
+	}
+
+	.featured_container_item > img{
+		width: 70px;
+		max-height: 25px;
+	}
+	/* end featured */
+
+
+	/* start analytics */
+	.analitics_item_image > img{
+		width: 230px;
+	}
+
+	.analitics_item_content{
+		max-width: 255px;
+		margin-bottom: 100px;
+	}
+
+	.analitics_heading{
+		font-size:14px;
+		margin-bottom: unset;
+	}
+
+	.analitics_description{
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	/* end analytics */
+
+	/* start testimonal */
+	.testemonial_items{
+		display: grid;
+		justify-content: center;
+	}
+	/* end testiomonil */
+
+	/* start are you ready */
+
+	#ready{
+		margin-top: 40px;
+	}
+
+	.ready_text{
+		font-size:18px;
+		line-height: 55px;
+	}
+
+	.ready_title{
+		font-size:28px;
+		line-height: 40px;
+	}
+
+	/* end are you ready */
+
+	/* start footer */
+	.footer_container{
+		display: grid;
+		justify-content:center;
+		text-align:center;
+	}
+
+	.footer_title{
+		margin-top: 20px;
+	}
+	/* end footer */
+
+
+}
+
+@media screen and ( max-width: 576px) {
+	/* start nav */
+	nav{
+		display:grid;
+		justify-content:start;
+		margin-top:35px !important;
+	}
+	.nav_list{
+		display:grid;
+		margin-top: 15px;
+	}
+
+	.nav_list_item{
+		margin-left: unset;
+	}
+	/* end nav */
+
+	/* start banner */
+	#banner{
+		margin-top: 100px;
+	}
+
+	.banner_box_two{
+		display:none;
+	}
+	/* end banner */
+
+	/* start featured */
+	.featured_container_item > img{
+		width: 55px;
+	}
+	/* end featured */
+
+	/* start analitics */
+	#analitics{
+		margin-top: 100px;
+	}
+
+	.analitics_item{
+		display: grid;
+		justify-content: center;
+	}
+
+	.analitics_item_content{
+		max-width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.analitics_item_image{
+		text-align: center;
+	}
+	/* end analitics */
+
+	/* start testimonial */
+	.testimonials_heading{
+		font-size:24px;
+		line-height: 44px;
+	}
+	/* end testimonial */
+}
+
